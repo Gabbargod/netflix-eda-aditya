@@ -1,39 +1,71 @@
-# Netflix Data Analysis. Aditya Tiwari MCA Student
+# Netflix Data Analysis
 
-Pluto Academy Artificial Intelligence and Machine Learning Internship
+## Introduction to the Project
 
-## Dataset
+This project is a part of the Pluto Academy AI & Machine Learning Internship where the aim was to work with real-life Netflix data, analyze it to draw patterns, and represent insights visually.
 
-I used the Netflix Movies and TV Shows dataset that I found on kaggle.com/datasets/shivamb/netflix-shows
+## Data Set Used
 
-## What I Did
+In this analysis, I have used Netflix Movies & TV Shows data set from Kaggle:
 
-- I cleaned up a lot of Netflix data. 8,807 Rows to be exact. This was not easy because there were 2,634 movies or shows that did not have a director listed and 831 that did not have a country listed.
+https://www.kaggle.com/datasets/shivamb/netflix-shows
 
-- I used Pandas to answer some questions about the Netflix data. I had to answer 5 questions in total.
+The data set contains details related to Netflix content like titles, release year, countries, ratings, genres, director, and run-time.
 
-- I made 6 kinds of charts to help visualize the Netflix data. These included pie charts and bar charts and line graphs and histograms and horizontal bar charts and heatmaps.
+## Tasks Performed
 
-- Based on what I found out I wrote 5 business insights that could be useful to Netflix.
+### Data Cleaning
 
-## Tools
+This dataset had 8,807 rows and some missing values. I started the project by analyzing the data to find out about any missing values and duplicates in it.
 
-I used Python and Pandas and NumPy and Matplotlib and Seaborn and Google Colab to do my analysis.
+### Exploratory Data Analysis
 
-## Key Findings
+Once the data was cleaned, I started exploring it and answering various questions based on analysis using Pandas, such as:
 
-- I found out that most of the content on Netflix is Movies. 70 Percent. The rest is TV Shows. 30 Percent.
+* Percentage of Netflix content in terms of Movies and TV Shows
+* Which country contributes the most to Netflix content?
+* Trend of Netflix content library over the years
+* Most popular rating among the content
+* Top genres of Netflix content
 
-- The United States and India are the countries when it comes to making content for Netflix.
+### Visualization
 
-- It seems like Netflix had the content in 2018 and 2019. This was when Netflix was expanding around the world.
+In order to gain more insight from the data, I plotted various kinds of graphs which include the following:
 
-- On average a movie on Netflix is 100 minutes long.
+* Bar Graphs
+* Pie Graphs
+* Line Graphs
+* Histograms
+* Horizontal Bar Graphs
+* Heat Maps
 
-- The biggest genre on Netflix is International Movies. This just goes to show that Netflix is not about American movies. It has content from all, around the world.
+The graphs aided in observing certain trends from the dataset and helped in comparing various aspects of the dataset.
+
+## Tools Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Google Colab
+
+## Key Observations
+
+Certain key observations that caught my attention are as follows:
+
+* Movies contribute to a considerably large chunk of Netflix's total database compared to TV Shows.
+* US and India constitute a considerable part of the content uploaded on the platform.
+* There was a rapid growth in the number of content added during 2018 and 2019.
+* Majority of the movies are 100 minutes long.
+* International Movies are one of the most popular genres on the platform.
+
+## Conclusion
+
+In this project, I have gained hands-on experience in handling datasets through data cleaning, exploratory data analysis, and data visualization techniques using Python.
 
 ## Author
 
-Aditya Tiwari MCA Student
-
-Email: Adityatiwari2211@gmail.com
+Aditya Tiwari
+MCA Student
+Pluto Academy AI & Machine Learning Internship
